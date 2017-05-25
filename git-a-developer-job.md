@@ -10,7 +10,7 @@ Based on the course "Git a Developer Job" by Brad Schiff
 <h2>Mobile-First Essentials</h2>      
 <h2>Git Branches</h2>
 <h2>Automated Sprites</h2>
-<h2>JavaScrip Organization</h2>
+<a href="#javascript"><h2>JavaScript Organization</h2></a>
 
 <h3>Git Essentials</h3>
 
@@ -463,7 +463,7 @@ What is an icon sprite?
         Use variables in rgba:
           npm install postcss-hexrgba --save-dev
           
-<h3>JavaScript Organization</h3>
+<h3 id="#javascript">JavaScript Organization</h3>
   Intro to Object-Oriented Programming
     -Stop thinking in terms of individual variables and functions
     -Begin thinking in terms of cohesive, self-sufficient objects
