@@ -1,1 +1,1 @@
-cribsheet
+Crib sheets for online courses
