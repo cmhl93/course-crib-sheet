@@ -519,7 +519,8 @@ What is an icon sprite?
         
       Inheritance
       
-      
+      <h3>Revealing Elements on Scroll</h3>
+      npm install waypoints --save
       
       
       
