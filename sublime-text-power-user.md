@@ -126,7 +126,7 @@
 ##  Some useful shortcuts
 
 ### Editing
-	
+  ```	
   Ctrl + X	Cut line
   Ctrl + ↩	Insert line after
   Ctrl + ⇧ + ↩	Insert line before
@@ -151,25 +151,29 @@
   Ctrl + U	soft undo; jumps to your last change before undoing change when repeated
   Alt + ⇧ + W	Wrap Selection in html tag
   Alt + .	Close current html tag
-	
+  ```	
+  
 ### Windows
-	
+  ```	
   Ctrl + Alt + Up	Column selection up
   Ctrl + Alt + Down	Column selection down
+  ```  
   
 ### Navigation/Goto Anywhere
-
+  ```
   Ctrl + P	Quick-open files by name
   Ctrl + R	Goto symbol
   Ctrl + ;	Goto word in current file
   Ctrl + G	Goto line in current file
-
+  ```
+  
 ### General 
-	
+  ```	
   Ctrl + ⇧ + P	Command prompt
   Ctrl + KB	Toggle side bar
   Ctrl + ⇧ + Alt + P	Show scope in status bar
-	
+  ```	
+  
 ### Find/Replace
   ```	
   Ctrl + F	Find
