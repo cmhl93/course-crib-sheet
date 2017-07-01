@@ -171,20 +171,21 @@
   Ctrl + ⇧ + Alt + P	Show scope in status bar
 	
 ### Find/Replace
-	
+  ```	
   Ctrl + F	Find
   Ctrl + H	Replace
   Ctrl + ⇧ + F	Find in files
+  ```
 
 ### Tabs
-	```
-	Ctrl + ⇧ + t	Open last closed tab
+  ```	
+  Ctrl + ⇧ + t	Open last closed tab
   Ctrl + PgUp	Cycle up through tabs
   Ctrl + PgDn	Cycle down through tabs
   Ctrl + ⇆	Find in files
   Ctrl + W	Close current tab
   Alt + [NUM]	Switch to tab number [NUM] where [NUM] <= number of tabs
-	```
+  ```
   
 ### Split window
   ```
