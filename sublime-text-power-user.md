@@ -127,7 +127,7 @@
 
 ### Editing
 	
-  |Ctrl + X	|Cut line|
+  Ctrl + X	Cut line
   Ctrl + ↩	Insert line after
   Ctrl + ⇧ + ↩	Insert line before
   Ctrl + ⇧ + ↑	Move line/selection up
@@ -151,67 +151,53 @@
   Ctrl + U	soft undo; jumps to your last change before undoing change when repeated
   Alt + ⇧ + W	Wrap Selection in html tag
   Alt + .	Close current html tag
-	```
-  
+	
 ### Windows
-
-	```
+	
   Ctrl + Alt + Up	Column selection up
   Ctrl + Alt + Down	Column selection down
-	```
   
 ### Navigation/Goto Anywhere
 
-	```
   Ctrl + P	Quick-open files by name
   Ctrl + R	Goto symbol
   Ctrl + ;	Goto word in current file
   Ctrl + G	Goto line in current file
-	```
 
 ### General 
-
-	```
+	
   Ctrl + ⇧ + P	Command prompt
   Ctrl + KB	Toggle side bar
   Ctrl + ⇧ + Alt + P	Show scope in status bar
-	```
-  
+	
 ### Find/Replace
-
-	```
+	
   Ctrl + F	Find
   Ctrl + H	Replace
   Ctrl + ⇧ + F	Find in files
-	```
 
 ### Tabs
-
-	```
+	
   Ctrl + ⇧ + t	Open last closed tab
   Ctrl + PgUp	Cycle up through tabs
   Ctrl + PgDn	Cycle down through tabs
   Ctrl + ⇆	Find in files
   Ctrl + W	Close current tab
   Alt + [NUM]	Switch to tab number [NUM] where [NUM] <= number of tabs
-	```
-  
+	
 ### Split window
 
-	```
-  Alt + ⇧ + 1	Revert view to single column
-  Alt + ⇧ + 2	Split view into two columns
-  Alt + ⇧ + 3	Split view into three columns
-  Alt + ⇧ + 4	Split view into four columns
-  Alt + ⇧ + 5	Set view to grid (4 groups)
-  Alt + ⇧ + 8	Split view into two rows
-  Ctrl + [NUM]	Jump to group where num is 1-4
+  Alt + ⇧ + 1		Revert view to single column
+  Alt + ⇧ + 2		Split view into two columns
+  Alt + ⇧ + 3		Split view into three columns
+  Alt + ⇧ + 4		Split view into four columns
+  Alt + ⇧ + 5		Set view to grid (4 groups)
+  Alt + ⇧ + 8		Split view into two rows
+  Ctrl + [NUM]		Jump to group where num is 1-4
   Ctrl + ⇧ + [NUM]	Move file to specified group where num is 1-4
-	```
 	
 ### Text manipulation
-
-	```
+  ```
   Ctrl + KU	Transform to Uppercase
   Ctrl + KL	Transform to Lowercase  
-	```
+  ```
