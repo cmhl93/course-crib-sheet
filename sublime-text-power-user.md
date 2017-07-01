@@ -1,4 +1,4 @@
-1. Sublime Text Settings
+##  Sublime Text Settings
 
   Preferences > Settings - User
   
@@ -16,7 +16,7 @@
   
   All default saves
   
-2.Bookmarking
+##  Bookmarking
 
   CTRL + F2 Toggle bookmarks
   
@@ -28,7 +28,7 @@
   
   CTRL + SHIFT + F2 Clear all bookmarks
   
-3. The Command Palette
+##  The Command Palette
 
   CTRL + SHIFT + P
   
@@ -44,7 +44,7 @@
   
   Origami - > manage your panes
   
-4. Master GOTO anything 
+##  Master GOTO anything 
 
   Used for navigation to a file or to certain places in a file
   
@@ -58,7 +58,36 @@
   
   Goto symbol in project -> symbols in the entire project
   
-5. Predictive File Name Typing  
+##  Predictive File Name Typing  
+
+  Download package control from https://packagecontrol.io/
+  
+  Open up Command Palette
+  
+  Install Package Controll
+  
+  Search autofile name and install
+  
+  Autofile quick settings -> Disable HTML image dimension insertion
+  
+##  Code Folding
+
+  Click fold button in gutter to tidy large blocks of code.
+  Do not delete the yellow horizontal symbol or it will delete all of the code.
+  
+  Keyboard shortcut: Select code then press CTRL + SHIFT + [
+  
+  Unfold: CTRL + SHIFT + ]
+  
+  Unfold all at once: CTRL + K & CTRL + J
+  
+  Block level folding: CTRL + K + Level of indentation
+  
+  Remember: Cursor must not be inside block during folding in order to do block level folding
+  
+  Fold image attributes: CTRL + K & CTRL + T
+  
+##  Creating and Using Snippets
 
   
   
