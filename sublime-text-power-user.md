@@ -177,14 +177,15 @@
   Ctrl + ⇧ + F	Find in files
 
 ### Tabs
-	
-  Ctrl + ⇧ + t	Open last closed tab
+	```
+	Ctrl + ⇧ + t	Open last closed tab
   Ctrl + PgUp	Cycle up through tabs
   Ctrl + PgDn	Cycle down through tabs
   Ctrl + ⇆	Find in files
   Ctrl + W	Close current tab
   Alt + [NUM]	Switch to tab number [NUM] where [NUM] <= number of tabs
-	
+	```
+  
 ### Split window
   ```
   Alt + ⇧ + 1		Revert view to single column
