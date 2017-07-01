@@ -169,8 +169,8 @@
   
 ### General 
   ```	
-  Ctrl + ⇧ + P	Command prompt
-  Ctrl + KB	Toggle side bar
+  Ctrl + ⇧ + P		Command prompt
+  Ctrl + KB		Toggle side bar
   Ctrl + ⇧ + Alt + P	Show scope in status bar
   ```	
   
