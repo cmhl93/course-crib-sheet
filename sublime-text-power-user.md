@@ -186,7 +186,6 @@
   Alt + [NUM]	Switch to tab number [NUM] where [NUM] <= number of tabs
 	
 ### Split window
-  ```
   Alt + ⇧ + 1		Revert view to single column
   Alt + ⇧ + 2		Split view into two columns
   Alt + ⇧ + 3		Split view into three columns
@@ -195,7 +194,6 @@
   Alt + ⇧ + 8		Split view into two rows
   Ctrl + [NUM]		Jump to group where num is 1-4
   Ctrl + ⇧ + [NUM]	Move file to specified group where num is 1-4
-	``` 
   
 ### Text manipulation
   ```
