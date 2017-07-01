@@ -127,8 +127,7 @@
 
 ### Editing
 	
-	```	
-  Ctrl + X	Cut line
+  |Ctrl + X	|Cut line|
   Ctrl + ↩	Insert line after
   Ctrl + ⇧ + ↩	Insert line before
   Ctrl + ⇧ + ↑	Move line/selection up
