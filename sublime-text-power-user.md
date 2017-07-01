@@ -150,12 +150,12 @@
   Ctrl + Space	Select next auto-complete suggestion
   Ctrl + U	soft undo; jumps to your last change before undoing change when repeated
   Alt + ⇧ + W	Wrap Selection in html tag
-  Alt + .	Close current html tag
+  Alt + .		Close current html tag
   ```	
   
 ### Windows
   ```	
-  Ctrl + Alt + Up	Column selection up
+  Ctrl + Alt + Up		Column selection up
   Ctrl + Alt + Down	Column selection down
   ```  
   
