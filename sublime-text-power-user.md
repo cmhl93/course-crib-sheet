@@ -121,8 +121,38 @@
   
 ##  Moving, Jumping, Selecting and Inserting
 
+Command -> CTRL
+
+Option -> Alt
+
+  Move to next word: ALT + arrow key
+  
+  Move to the front of the line: CTRL + <- (Double arrow if text is wrapped)
+  
+  Move to the end of the line: CTRL + -> (Double arrow if text is wrapped)
+  
+  Move to top of document: CTRL + Up arrow
+  
+  Move to the bottom of the document: CTRL + Down arrow
+  
+  Adding shift into the mix allows you to select 
+  
+  Select multiple lines: CTRL + L
+  
+  Move to the next line from the code block: CTRL + Enter (Add shift to go to the line above the block)
 
 
+##  Finding, Selecting, and Replacing
+
+  Find a word: CTRL + F 
+  
+  
+  
+  
+  
+  
+  
+  
 ##  Some useful shortcuts
 
 ### Editing
