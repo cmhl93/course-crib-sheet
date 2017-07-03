@@ -1,99 +1,65 @@
 ##  Sublime Text Settings
 
-  Preferences > Settings - User
-  
-  Save file located in Packages folder
-  
-  All saves will over Settings - Default
-  
-  Preferences > Browse Packages > User folder
-  
-  Language specific settings files
-  
-  When adding more settings, remove trailing commas
-  
-  Preferences > Settings - Default
-  
-  All default saves
+  * Preferences > Settings - User
+  * Save file located in Packages folder
+  * All saves will over Settings - Default
+  * Preferences > Browse Packages > User folder
+  * Language specific settings files
+  * When adding more settings, remove trailing commas
+  * Preferences > Settings - Default
+    * All default saves
   
 ##  Bookmarking
 
-  CTRL + F2 Toggle bookmarks
-  
-  F2 Next bookmarks
-  
-  Shift + F2 Previoous bookmarks
-
-  ALT + F2 Select all bookmarks
-  
-  CTRL + SHIFT + F2 Clear all bookmarks
+  * CTRL + F2 Toggle bookmarks
+  * F2 Next bookmarks
+  * Shift + F2 Previoous bookmarks
+  * ALT + F2 Select all bookmarks
+  * CTRL + SHIFT + F2 Clear all bookmarks
   
 ##  The Command Palette
 
-  CTRL + SHIFT + P
-  
-  Opens up features in the editor
-  
-  fuzzy search -> predictive based on search
-  
-  ssx -> Set Syntax
-  
-  Rename file -> search file:rename
-  
-  Emmet -> Edit code
-  
-  Origami - > manage your panes
+  * CTRL + SHIFT + P
+  * Opens up features in the editor
+  * fuzzy search -> predictive based on search
+  * ssx -> Set Syntax
+  * Rename file -> search file:rename
+  * Emmet -> Edit code
+  * Origami - > manage your panes
   
 ##  Master GOTO anything 
 
-  Used for navigation to a file or to certain places in a file
-  
-  CTRL + P open GOTO anything
-  
-  search file name
-  
-  Once your inside a file, to go to a line number: enter ": + line number"
-  
-  To find a class name: enter "@classname + classname"
-  
-  Goto symbol in project -> symbols in the entire project
+  * Used for navigation to a file or to certain places in a file
+  * CTRL + P open GOTO anything
+  * search file name
+    * Once your inside a file, to go to a line number: enter ": + line number"
+  * To find a class name: enter "@classname + classname"
+  * Goto symbol in project -> symbols in the entire project
   
 ##  Predictive File Name Typing  
 
-  Download package control from https://packagecontrol.io/
-  
-  Open up Command Palette
-  
-  Install Package Controll
-  
-  Search autofile name and install
-  
-  Autofile quick settings -> Disable HTML image dimension insertion
+  * Download package control from https://packagecontrol.io/ 
+  * Open up Command Palette
+  * Install Package Controll
+  * Search autofile name and install
+  * Autofile quick settings -> Disable HTML image dimension insertion
   
 ##  Code Folding
 
-  Click fold button in gutter to tidy large blocks of code.
-  Do not delete the yellow horizontal symbol or it will delete all of the code.
-  
-  Keyboard shortcut: Select code then press CTRL + SHIFT + [
-  
-  Unfold: CTRL + SHIFT + ]
-  
-  Unfold all at once: CTRL + K & CTRL + J
-  
-  Block level folding: CTRL + K + Level of indentation
-  
-  Remember: Cursor must not be inside block during folding in order to do block level folding
-  
-  Fold image attributes: CTRL + K & CTRL + T
+  * Click fold button in gutter to tidy large blocks of code.
+  * Do not delete the yellow horizontal symbol or it will delete all of the code.
+  * Keyboard shortcut: Select code then press CTRL + SHIFT + [
+  * Unfold: CTRL + SHIFT + ]
+  * Unfold all at once: CTRL + K & CTRL + J
+  * Block level folding: CTRL + K + Level of indentation
+  * Remember: Cursor must not be inside block during folding in order to do block level folding
+  * Fold image attributes: CTRL + K & CTRL + T
   
 ##  Creating and Using Snippets
 
-  Snippets are reusable pieces of code
-  
-  Available snippets: Tools > Snippets
-  
-  Create snippet: Tools > new snippet
+  * Snippets are reusable pieces of code
+  * Available snippets: Tools > Snippets
+  * Create snippet: Tools > new snippet
   
   ```
   <snippet>
@@ -106,45 +72,34 @@
   }
   ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>.bbox</tabTrigger> (What is written before pressing Tab, . added to override Emmet plugin)
+    <tabTrigger>.bbox</tabTrigger> 
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.css, source.scss, source.sass, source.less, source.stylus</scope>  (Applied to which type of files)
-    <description>Border box css snippet for implementing box-sizing</description> (Description when searching in command palette)
+    <scope>source.css, source.scss, source.sass, source.less, source.stylus</scope> 
+    <description>Border box css snippet for implementing box-sizing</description>
   </snippet>
   ```
   
-  save in snippets folder with the extension .sublime-snippet
-  
-  Find snippets at Github:
-  
-  Code options with this extension: .sublime-snippet
+  * tabTrigger - What is written before pressing Tab, . added overrides Emmet plugin
+  * Scope - snippet is applied to which type of files
+  * Description - What appears when searching in the command palette
+  * save in snippets folder with the extension .sublime-snippet
+  * Find snippets at Github:
+    * Code options with this extension: .sublime-snippet
   
 ##  Moving, Jumping, Selecting and Inserting
 
-Command -> CTRL
-
-Option -> Alt
-
-  Move to next word: ALT + arrow key
-  
-  Move to the front of the line: CTRL + <- (Double arrow if text is wrapped)
-  
-  Move to the end of the line: CTRL + -> (Double arrow if text is wrapped)
-  
-  Move to top of document: CTRL + Up arrow
-  
-  Move to the bottom of the document: CTRL + Down arrow
-  
-  Adding shift into the mix allows you to select 
-  
-  Select multiple lines: CTRL + L
-  
-  Move to the next line from the code block: CTRL + Enter (Add shift to go to the line above the block)
-
+  * Move to next word: ALT + arrow key
+  * Move to the front of the line: CTRL + <- (Double arrow if text is wrapped)
+  * Move to the end of the line: CTRL + -> (Double arrow if text is wrapped)
+  * Move to top of document: CTRL + Up arrow
+  * Move to the bottom of the document: CTRL + Down arrow
+  * Adding shift into the mix allows you to select 
+  * Select multiple lines: CTRL + L
+  * Move to the next line from the code block: CTRL + Enter (Add shift to go to the line above the block)
 
 ##  Finding, Selecting, and Replacing
 
-  Find a word: CTRL + F 
+  * Find a word: CTRL + F 
   
   
   
