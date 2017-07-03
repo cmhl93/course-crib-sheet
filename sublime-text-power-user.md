@@ -100,14 +100,83 @@
 ##  Finding, Selecting, and Replacing
 
   * Find a word: CTRL + F 
+    * Regex 
+  	* Case sensitive
+    * Whole word
+    * Wrap
+    * In selection
+    * Real time
+  * Go to next find: CTRL + G   
+    * Press esc to select instance, can be replaced with new typed word
+  * Go back an instance: CTRL + SHIFT + G 
+  * Incremental selecting:
+    * Double click on instance to select
+    * CTRL + D to select next instance
+    * Press esc for multiple cursors on the instance
+  * Highlight one instance and then press Command + Ctrl + G to select all instances
   
-  
-  
-  
-  
-  
-  
-  
+##  Emmet - HTML
+
+  * Install via Package Control
+  * Emmet cheat sheet on their website
+  * Example 1:
+    * p + tab = <p></p>
+  * Example 2:
+    * p.special + tab = <p class="special"></p>
+    * p.wrapper.article + tab = <p class = "wrapper article"></p>
+    * .error + tab = <div class = "error"></div>
+    * #post + tab = <div id = "post"></div>
+    * h2.post#post12 + tab = <h2 class = "post" id = "post12"></h2>
+    * a + tab = <a href = ""></a>
+    * a[href="index.html"] + tab = <a href = "index.html"></a>
+  * Example 3:
+    * h2{This is a title} + tab = <h2>This is a title</h2>
+    * lorem + tab = populate with lorem ipsum
+    * lorem5 + tab = 5 words of lorem ipsum
+  * Example 4:
+    * p.special#post12[data-post="12"]{Check out my post}
+  * Example 5:
+    * ! + tab = HTML skeleton
+  * Example 6:
+    * .wrapper>p>a + tab 
+      ```
+      <div class="wrapper">
+        <p><a href=""></a></p>
+      </div>
+      ```
+  * Example 7:
+    * .wrapper>p.special + img[src="dog.jpg"]
+      ```
+      <div class="wrapper">
+        <p class="special"></p>
+        <img src="dog.jpg" alt="">
+      </div>
+      ```
+  * Example 8:
+    * .wrapper>p.special^.wrapper2>p.warning
+      ```
+      <div class="wrapper">
+        <p class="special"></p>
+      </div>
+      <div class="wrapper2">
+        <p class="warning"></p>
+      </div>  
+      ```
+  * Example 9:
+    * ul>li * 5
+      ```
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      ```
+  * To differentiate class:
+    * add a $ 
+    * Ex: .item$
+    * $$ - adds a leading 0
 ##  Some useful shortcuts
 
 ### Editing
