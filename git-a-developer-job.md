@@ -37,7 +37,7 @@
     <li>Working directory = folder location where the project lives</li>
     <li>Commit = Git's way of "saving"</li>
     <li>Staging = Control what gets committed</li>
-  </ul>
+  </ul> 
 
   Push & Pull
   Git stores system commit data locally, on your hard drive
