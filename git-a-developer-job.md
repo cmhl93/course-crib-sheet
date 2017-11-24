@@ -18,7 +18,7 @@
 
 [Automated Sprites](#automated-sprites)
 
-[JavaScript Organization](#javaScript-organization)
+[JavaScript Organization](#javascript-organization)
 
 ## Git Essentials
 
