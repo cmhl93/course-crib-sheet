@@ -1,15 +1,22 @@
-Based on the course "Git a Developer Job" by Brad Schiff
+# Based on the course "Git a Developer Job" by Brad Schiff
 
-<h1>Document Contents:</h1>
+## Document Contents:
+[Git Essentials](#Git-Essentials)
 
-<h2>Git Essentials</h2>
-<h2>Intro to Node.js & NPM</h2>
-<h2>Gulp Essentials</h2>
-<h2>CSS Architecture</h2>
-<h2>Gulp Timeout</h2> 
-<h2>Mobile-First Essentials</h2>      
-<h2>Git Branches</h2>
-<h2>Automated Sprites</h2>
+[Intro to Node.js & NPM](#Intro-To-Node.js-&-NPM)
+
+[Gulp Essentials](#Git-Essentials)
+
+[CSS Architecture](#CSS-Architecture)
+
+[Gulp Timeout](#Gulp-Timeout) 
+
+[Mobile-First Essentials](#Mobile--First-Essentials)      
+
+[Git Branches](#Git-Branches)
+
+[Automated Sprites](#Automated-Sprites)
+
 <a href="#javascript"><h2>JavaScript Organization</h2></a>
 
 <h3>Git Essentials</h3>
