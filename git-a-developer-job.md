@@ -81,7 +81,7 @@
     <br>
     git push origin master
     
-## Intro to Node.js & NPM
+## Intro
   
   Automation - take a task and find a way to have your computer do it for you
   
