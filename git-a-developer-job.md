@@ -2,7 +2,7 @@
 
 [Git Essentials](#git-essentials)
 
-[Intro to Node.js and NPM](#intro-to-node.js-and-npm)
+[Intro to Node and NPM](#intro-to-node-and-npm)
 
 [Gulp Essentials](#gulp-essentials)
 
@@ -20,121 +20,96 @@
 
 ## Git Essentials
 
-<h4>What is Git?</h4>
-  A version control system
-  Git helps use manage our files
-  <ul>
-    <li>History</li>
-    <li>Collaboration</li>
-    <li>Feature branches</li>
-  </ul>
+  * What is Git? 
+    * A version control system
+    * Git helps use manage our files
+    * History 
+    * Collaboration
+    * Feature branches
   
-  Vocab
-  <ul>
-    <li>Project = Repository (repo)</li>
-    <li>Working directory = folder location where the project lives</li>
-    <li>Commit = Git's way of "saving"</li>
-    <li>Staging = Control what gets committed</li>
-  </ul> 
+  * Vocab
+    * Project = Repository (repo)
+    * Working directory = folder location where the project lives
+    * Commit = Git's way of "saving"
+    * Staging = Control what gets committed
 
-  Push & Pull
-  Git stores system commit data locally, on your hard drive
-  <ol>
-    <li>Lost your computer? Lose your project</li>
-    <li>Collaboration</li>
-    Solution: Repo Hosting (GitHub)
-  </ol>
+  * Push & Pull
+      * Git stores system commit data locally, on your hard drive
+        * Lost your computer? Lose your project
+        * Collaboration
+        * Solution: Repo Hosting (GitHub)
   
-  Repo on our computer -> push -> Repo on GitHub's server
-  Repo on GitHub's server -> pull changes -> Repo on our computer
+  * Repo on our computer -> push -> Repo on GitHub's server
+  * Repo on GitHub's server -> pull changes -> Repo on our computer
   
-  Command Line - Git Bash
-  <ul>
-    <li>pwd - current directory</li>
-    <li>cd - change directory</li>
-    <li>Drag folder onto Git Bash (cd <space> folder)</li>
-    <li>mkdir "hello-world" (Make directory "hello-world")</li>
-    <li>git init (Git initalized)</li>
-    <li>touch "index.html" (Create .html file)</li>
-    <li>git checkout -- . (restore file changes or deletion)</li>
-  </ul>
+  * Command Line - Git Bash
+    * pwd - current directory
+    * cd - change directory
+    * Drag folder onto Git Bash (cd <space> folder)
+    * mkdir "hello-world" (Make directory "hello-world")
+    * git init (Git initalized)
+    * touch "index.html" (Create .html file)
+    * git checkout -- . (restore file changes or deletion)
     
-  Clone - copy an existing repository from a server to our computer's hard drive
-    <br>
-    ex: git clone https://github.com/LearnWebCode/welcome-to-git.git
+  * Clone - copy an existing repository from a server to our computer's hard drive
+    * ex: git clone https://github.com/LearnWebCode/welcome-to-git.git
     
-  git remote -v (view current repo location)
-  <br>
-  git remote set-url origin <github link> (Change origin)
-  <br>
-  git push origin master (upload to git site)
+  * View current repo location 
+    * git remote -v 
   
-  To push change:
-    <br>
-    git status
-    <br>
-    git add -A
-    <br>
-    git status
-    <br>
-    git commit -m 'Message'
-    <br>
-    git push origin master
+  * Change origin
+    * git remote set-url origin <github link>
+  
+  * Upload to git site
+    * git push origin master 
+  
+  * To push change:
+    * git status
+    * git add -A
+    * git status
+    * git commit -m 'Message'
+    * git push origin master
     
-## Intro to Node.js and NPM
+## Intro to Node and NPM
   
-  Automation - take a task and find a way to have your computer do it for you
-  
-  Example 1:
-    -Automatic browser refreshing
-    -CSS Autoprefixer
+  * Automation - take a task and find a way to have your computer do it for you
+    * Example 1:
+      * Automatic browser refreshing
+      * CSS Autoprefixer
  
- CSS Organization
-  -separated into multiple css files
-  header.css, footer.css, banner.css, features.css
-  Don't link all mini css files
+  * CSS Organization
+    * separated into multiple css files
+      * header.css, footer.css, banner.css, features.css
+    * Don't link all mini css files
   
-  Package management - getting framework files
+  * Package management - getting framework files
   
-  Node.js
-    -JavaScript runtime
-    
-    node -v (Check version)
-    
-  node file.js (Run code through node)
+  * Node.js
+    * JavaScript runtime
+      `node -v (Check version)` 
+    * node file.js (Run code through node)
    
- NPM - Node Package Management
-   <br>
-   -centralized place where developers share their code with the world
-   <br>
-   -A package manager can automatically grab fresh copires of all our ingredients
+  * NPM - Node Package Management
+    * centralized place where developers share their code with the world
+    * A package manager can automatically grab fresh copires of all our ingredients
    
- 2 Types of Packages
- <ol>
-   <li>Node Packages</li>
-   Automation
-   <br>
-   Build tools
-   <br>
-   Server Tasks
-   <br>
-   <br>
-   <li>Other Things</li>
-   jQuery
-   <br>
-   Bootstrap
-   <br>
-   Normalize.css
-   <br>
- </ol>
+  * 2 Types of Packages
+    * Node Packages
+      * Automation
+      * Build tools
+      * Server Tasks
+    * Other Things
+      * jQuery
+      * Bootstrap
+      * Normalize.css
   
-Command Line:
-  <br>
-  npm install jquery --save 
-  <br>
-  npm install normalize.css --save
+  * Command Line:
+    `npm install jquery --save` 
+    
+    `npm install normalize.css --save`
 
-If node modules folder deleted: npm install (redownload packages)
+  * If node modules folder deleted: 
+    `npm install (redownload packages)`
 
 ## Gulp Essentials
 
