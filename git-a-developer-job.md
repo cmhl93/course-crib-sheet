@@ -2,7 +2,7 @@
 
 [Git Essentials](#git-essentials)
 
-[Intro to node and npm](#intro-to-node-and-npm)
+[Intro](#intro)
 
 [Gulp Essentials](#gulp-essentials)
 
