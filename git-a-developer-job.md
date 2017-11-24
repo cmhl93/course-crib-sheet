@@ -280,70 +280,79 @@
       
 ## Mobile-First Essentials
 
-  What does "mobile-first" mean?
-    Building responsive web pages starting from mobile devices
-      Why?
-        More traffic from mobile devices than traditional desktops and laptops
-          Our primaryy source of traffic should not be an afterthought
-        Traditional "desktop-first" responsive design resulted in bloated slow loading desktops
-          We don't want anyone to have to download extra data that they won't even use
-   Mobile-first = efficient websites that load as quickly as possible for everyone
+  * What does "mobile-first" mean?
+    * Building responsive web pages starting from mobile devices
+       * Why?
+         * More traffic from mobile devices than traditional desktops and laptops
+           * Our primaryy source of traffic should not be an afterthought
+         * Traditional "desktop-first" responsive design resulted in bloated slow loading desktops
+           * We don't want anyone to have to download extra data that they won't even use
+   * Mobile-first = efficient websites that load as quickly as possible for everyone
    
-   Mobile first in different contexts
-    Design context
-      Desiging around a smaller screen first
-      Force us to prioritize our content
-      Anticipate more common user actions
-      Information architects, graphic designers, usuability experts.
-    Development Context
-      Coding the site so devices don't download unnecessary data
-      Treat the most essential view of our website as our baseline and code upwards from there
-      Make the site load quickly for everyone
+   * Mobile first in different contexts
+     * Design context
+       * Desiging around a smaller screen first
+       * Force us to prioritize our content
+       * Anticipate more common user actions
+       * Information architects, graphic designers, usuability experts.
+    * Development Context
+       * Coding the site so devices don't download unnecessary data
+       * Treat the most essential view of our website as our baseline and code upwards from there
+       * Make the site load quickly for everyone
       
-    Where do we begin with mobile-first development?
-      -HTML
-      -CSS
-      -JavaScript
+    * Where do we begin with mobile-first development?
+       * HTML
+       * CSS
+       * JavaScript
       
-      Mixins:
+     * Mixins:
+        ```
         npm install postcss-mixins --save-dev
         
         @define-mixin atSmall
         @mixin atSmall
+        ```
         
-      Responsive Images
-        Reasons to use responsive images
-          1. Art direction & cropping situation
+  * Responsive Images
+    * Reasons to use responsive images
+      1. Art direction & cropping situation
+            ```
             <picture>
               <source srcset="images/dog-crop-large.jpg" media="(min-width: 1200px)">
               <source srcset="images/dog-crop-medium.jpg" media="(min-width: 760px)">
               <img src="images/dog-crop-small.jpg" alt="Puppy in the sand">
             </picture>
-          2. Image resolution & file size situation (faster load times)
+            ```
+       2. Image resolution & file size situation (faster load times)
+            ```
             <img srcset="images/dog-resolution-small.jpg 570w, images/dog-resolution-medium.jpg 1200w, images/dog-resolution-large.jpg 1920w" alt="Puppy in the Sand">
+            ```
             
-     Quick Tips for testing, responsive images
-      Add counterparts of images-dark overlay pixel size
-      Simulating and testing pixels:
-        Inspect-> device icon
+     *  Quick Tips for testing, responsive images
+        * Add counterparts of images-dark overlay pixel size
+        * Simulating and testing pixels:
+          * Inspect-> device icon
         
-    //Other
-      In-line element - the browser thinks it's similar to a line of text
-      em -> relative to the font size
+      * //Other
+        * In-line element - the browser thinks it's similar to a line of text
+        * em -> relative to the font size
       
-      Too many modifier classes?
-        -easier to create than unique classes
-        Ex: new style updates
-        Avoid spaghetti CSS
+      * Too many modifier classes?
+        * easier to create than unique classes
+          * Ex: new style updates
+        * Avoid spaghetti CSS
         
-        When we float an element, we take it out of the normal flow of the page.
-          -Clear floats:
+      * When we float an element, we take it out of the normal flow of the page.
+        * Solution: clear floats!
+            ```
             &::after{
               content: "";
               clear: both;
               display: table;
             }
-      font-weight: 400 -> standard
+            ```
+            
+      * font-weight: 400 -> standard
       
 ## Git Branches
 
