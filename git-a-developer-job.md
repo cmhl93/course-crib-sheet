@@ -2,7 +2,7 @@
 
 ## Document Contents:
 
-[Git Essentials](#Git-Essentials)
+[Git Essentials](#git-essentials)
 
 [Intro to Node.js & NPM](#Intro-To-Node.js-&-NPM)
 
@@ -12,7 +12,7 @@
 
 [Gulp Timeout](#Gulp-Timeout) 
 
-[Mobile-First Essentials](#Mobile--First-Essentials)      
+[Mobile-First Essentials](#Mobile-First-Essentials)      
 
 [Git Branches](#Git-Branches)
 
