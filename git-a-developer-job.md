@@ -325,7 +325,9 @@
             ```
        2. Image resolution & file size situation (faster load times)
             ```
-            <img srcset="images/dog-resolution-small.jpg 570w, images/dog-resolution-medium.jpg 1200w, images/dog-resolution-large.jpg 1920w" alt="Puppy in the Sand">
+            <img srcset="images/dog-resolution-small.jpg 570w, 
+            images/dog-resolution-medium.jpg 1200w, 
+            images/dog-resolution-large.jpg 1920w" alt="Puppy in the Sand">
             ```
             
      *  Quick Tips for testing, responsive images
@@ -356,52 +358,56 @@
       
 ## Git Branches
 
-    git branch -> will list all the branches in the repo
-    "master" branch as the...
+  * git branch -> will list all the branches in the repo
+    * "master" branch as the...
       primary, main, live, production
-    ...version of our project
+      ...version of our project
     
-    Create a new branch for each new feature of our project
+  * Create a new branch for each new feature of our project
     
-    How to create a new branch
-      need clean directory
-        git status
-      remove file from staging area:
-        git reset <path to file>
-        
-      git branch <name of branch>
+  * How to create a new branch
+    * need clean directory
+      `git status`
+    * remove file from staging area:
+      `git reset <path to file>`  
+      `git branch <name of branch>`
       
-      Star next to branch - current branch we're working in
+      * Star next to branch - current branch we're working in
       
-    Switch branch (Checkout)
-      git checkout count-to-ten
+  * Switch branch (Checkout)
+      `git checkout count-to-ten`
       
-    Merge changes in one branch to master branch
-      -switch back to master
-        git merge <name of branch>
-      -commits from other branch will show after merge and push
+  * Merge changes in one branch to master branch
+    * switch back to master
+      `git merge <name of branch>`
+      * commits from other branch will show after merge and push
       
-    Merge through GitHub
-      -small change, stage and commit files in one line
+  * Merge through GitHub
+    * small change, stage and commit files in one line
+      ```
       git commit -am 'Message'
       git push origin <name of branch>
-      Open a pull request, assign to another developer for review
-        Merge pull request
+      ```
+    * Open a pull request, assign to another developer for review
+        `Merge pull request`
         
-      git pull master
+      `git pull master`
       
-      git branch -d <name of branch> (Delete locally)
-      git push origin --delete <name of branch> (Delete remote)
+     * Delete locally
+      `git branch -d <name of branch>`
       
-      Create and switch to branch in one move: git checkout -b <name of branch>
+      * Delete remote
+       `git push origin --delete <name of branch>` 
       
-      Merge branch into master
-        git merge our-features --no-ff
-          esc
-          wq
-          Enter
-          
-          Creates a dedicated commit in your repo's history
+      * Create and switch to branch in one move: 
+        `git checkout -b <name of branch>`
+      
+      * Merge branch into master
+        * git merge our-features --no-ff
+          * esc
+          * wq
+          * Enter  
+        * Creates a dedicated commit in your repo's history
           
 ## Automated Sprites
 
