@@ -202,11 +202,11 @@
     * npm install postcss-import --save-dev`
     * Ex: (on main css file)
     
-    `@import "base/global.css";`
+     `@import "base/global.css";`
         
     * Add dependency to project
     
-    `@import "normalize.css";`
+     `@import "normalize.css";`
         
   * What is BEM?
     * Popular abstract way of thinking about our interface
@@ -242,9 +242,10 @@
       
 ## Gulp Timeout     
 
-  Install BrowserSync:
-    npm install browser-sync --save-dev
+  * Install BrowserSync:
+    * npm install browser-sync --save-dev
     
+    ```
     In gulpfile.js:
     browserSync = require('browser-synce');
     browserSync.init({
@@ -252,26 +253,30 @@
         baseDir: "app"
       }
     });
+    ```
     
-    Auto-refresh:
-      browserSync.reload();
-      
-    -Cross Mobile Testing Capabilities
-    -Use External address to test on mobile
+  * Auto-refresh:
     
-  Organizing our gulp.js file:
-    separate js files
-    copy variables required for each js file
-    import into main gulp:
-      require('./gulp/tasks/styles'); 
-        Don't need extension (.js) when using require
+    `browserSync.reload();`  
+    
+    * Cross Mobile Testing Capabilities
+    * Use External address to test on mobile
+    
+  * Organizing our gulp.js file:
+    * separate js files
+    * copy variables required for each js file
+    * import into main gulp:
+      `require('./gulp/tasks/styles');`
+        * Don't need extension (.js) when using require
         
-  Gulp Error Handling:
-    In styles.js:
+  * Gulp Error Handling:
+    * In styles.js:
+      ```
       .on('error', function(errorInfo)){
         console.log(errorInfo.toString());
         this.emit('emit');
       });
+      ```
       
 ## Mobile-First Essentials
 
