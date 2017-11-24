@@ -175,11 +175,11 @@
       * Popular new post-processor
       * Fastest to compile out of all pre/post-processors
      
-    ``` 
-    gulp.src()
-    gulp.dest()
-    pipe()
-    ```
+     ``` 
+     gulp.src()
+     gulp.dest()
+     pipe()
+     ```
     * Install PostCSS: 
     
       `npm install gulp-postcss --save-dev`
@@ -198,44 +198,49 @@
     
 ## CSS Architecture
 
-    File architecture
-      npm install postcss-import --save-dev
+  * File architecture
+  
+  `npm install postcss-import --save-dev`
       
-      Ex: (on main css file)
-        @import "base/global.css";
-        
-      Add dependency to project
-        @import "normalize.css";
-        
-     What is BEM?
-      Popular abstract way of thinking about our interface
-      -B - block (independent, reusuable part of our design)
-      -E - element (belongs to a block.  It cannot be used outside of the block that it belongs to)
-      -M - modifer (can be used on a block or an element to indicate a change to the default state of an object)
-        Ex: toggle classes
-        Ex: Button share class "btn", modifier class added to differentiate buttons
+    * Ex: (on main css file)
     
-    Overview
-      -CSS selectors should target elements directly with classes, instead of relying on type selectors, descendent selectors, and the cascade.
-      -Because we are limiting cascade we are free to move blocks around and reuse them throughout the page
-      -Blocks can be nested inside other blocks.
-      -Identify patterns and then create single-responsibility blocks.
+    `@import "base/global.css";`
+        
+    * Add dependency to project
+    
+    `@import "normalize.css";`
+        
+  * What is BEM?
+    * Popular abstract way of thinking about our interface
+      * B - block (independent, reusuable part of our design)
+      * E - element (belongs to a block.  It cannot be used outside of the block that it belongs to)
+      * M - modifer (can be used on a block or an element to indicate a change to the default state of an object)
+        * toggle classes
+        * Button share class "btn", modifier class added to differentiate buttons
+    
+    * Overview
+      * SS selectors should target elements directly with classes, instead of relying on type selectors, descendent selectors, and the cascade.
+      * Because we are limiting cascade we are free to move blocks around and reuse them throughout the page
+      * Blocks can be nested inside other blocks.
+      * Identify patterns and then create single-responsibility blocks.
       
-      There is no reason to code a pattern more than once
+      * There is no reason to code a pattern more than once
       
-      Makes a relationship between our HTML and CSS clear.
-        Ex:
+      * Makes a relationship between our HTML and CSS clear.
+        * Ex:
+          ```
           class = "large-hero__subtitle"
           block - large-hero
           subtitle - element
+          ```
           
-      Nested CSS:
-        &__<element name>{}
-      Complete Two Blocks:
-        -rem - relative to the root of the page (html element) usually 16px
+      * Nested CSS:
+        `&__<element name>{}`
+      * Complete Two Blocks:
+        * -rem - relative to the root of the page (html element) usually 16px
         
-        Add modifier:
-          Ex: class = "btn--large"
+        * Add modifier:
+          * Ex: class = "btn--large"
       
 ## Gulp Timeout     
 
