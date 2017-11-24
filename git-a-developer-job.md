@@ -55,20 +55,22 @@
     * ex: git clone https://github.com/LearnWebCode/welcome-to-git.git
     
   * View current repo location 
-    * git remote -v 
+    ` git remote -v` 
   
   * Change origin
-    * git remote set-url origin <github link>
+    ` git remote set-url origin <github link>`
   
   * Upload to git site
-    * git push origin master 
+    ` git push origin master` 
   
   * To push change:
-    * git status
-    * git add -A
-    * git status
-    * git commit -m 'Message'
-    * git push origin master
+    ``` 
+    git status
+    git add -A
+    git status
+    git commit -m 'Message'
+    git push origin master
+    ```
     
 ## Intro to Node and NPM
   
@@ -104,6 +106,7 @@
       * Normalize.css
   
   * Command Line:
+  
     `npm install jquery --save` 
     
     `npm install normalize.css --save`
