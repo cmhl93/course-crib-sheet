@@ -6,7 +6,7 @@
 
 [Intro to Node.js & NPM](#Intro-To-Node.js-&-NPM)
 
-[Gulp Essentials](#Git-Essentials)
+[Gulp Essentials](#Gulp-Essentials)
 
 [CSS Architecture](#CSS-Architecture)
 
