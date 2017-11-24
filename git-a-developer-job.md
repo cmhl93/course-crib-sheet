@@ -117,68 +117,84 @@
 
 ## Gulp Essentials
 
- * Gulp Introduction
-  * Gulp = automation
- * Installing Gulp
-  * Install globally   npm install gulp-cli --global
-  * Install in project  npm install gulp --save-dev
+  * Gulp Introduction
+    * Gulp = automation
+  * Installing Gulp
+    * Install globally   npm install gulp-cli --global
+    * Install in project  npm install gulp --save-dev
 
-Check version: gulp -v
+  * Check version: 
+    `gulp -v`
 
---save -> save to dependencies, packages needed for the browser to run
---save-dev -> for developer efficiency
+  * --save -> save to dependencies, packages needed for the browser to run
+  * --save-dev -> for developer efficiency
 
-Create gulpfile.js:
-  touch gulpfile.js
+  * Create gulpfile.js:
+    `touch gulpfile.js`
   
-set up package:
+  * set up package:
+  ```
+  var gulp = require('gulp');
+  gulp.task('default', function(){
+    console.log("Hello World");
+  });
+  ```
 
-var gulp = require('gulp');
-gulp.task('default', function(){
-  console.log("Hello World");
-});
+  * run default task -> gulp 
+  * run specific task -> gulp <name>
 
-run default task -> gulp 
-run specific task -> gulp <name>
-
-gulp plugin:
-  gulp-watch
-    npm install gulp-watch --save-dev
+  * gulp plugin:
+    * Add gulp-watch:
+    `npm install gulp-watch --save-dev`
     
-In gulpfile.js
-  Add:
+  * In gulpfile.js
+    * Add:
+    ```
     var watch = require('gulp-watch');
     gulp.tasak('watch', function(){
       watch('./app/index.html', function(){
         gulp.start('html');
       });
     });
+    ```
     
-    CTRL + C -> Gulp stop watching
+  * CTRL + C -> Gulp stop watching
     
-    Gulp and PostCSS
-    What is a CSS workflow?
-      -Autoprefixer
-    CSS Preprocessors
-      -Sass
-      -Less
-      -Stylus
-    CSS Variables
-    Nested CSS
-    Lets us write code the way we wish, recylces it into a new file that is supported by the browser
+  * Gulp and PostCSS
+    * What is a CSS workflow?
+      * Autoprefixer
+    * CSS Preprocessors
+      * Sass
+      * Less
+      * Stylus
+    * CSS Variables
+    * Nested CSS
+    * Lets us write code the way we wish, recylces it into a new file that is supported by the browser
     
-    PostCSS
-      -Popular new post-processor
-      -Fastest to compile out of all pre/post-processors
-      
+    * PostCSS
+      * Popular new post-processor
+      * Fastest to compile out of all pre/post-processors
+     
+    ``` 
     gulp.src()
     gulp.dest()
     pipe()
+    ```
+    * Install PostCSS: 
     
-    Install PostCSS: npm install gulp-postcss --save-dev
-    Install Autoprefixer: npm install autoprefixer --save-dev
-    Install: npm install postcss-simple-varss --save-dev
-    Install nested CSS: npm install postcss-nested --save-dev
+      `npm install gulp-postcss --save-dev`
+    
+    * Install Autoprefixer: 
+    
+      `npm install autoprefixer --save-dev`
+    
+    * Install Simple Vars: 
+    
+      `npm install postcss-simple-vars --save-dev`
+    
+    * Install nested CSS: 
+    
+      `npm install postcss-nested --save-dev`
     
 ## CSS Architecture
 
