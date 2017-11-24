@@ -199,9 +199,7 @@
 ## CSS Architecture
 
   * File architecture
-  
-  `npm install postcss-import --save-dev`
-      
+    * npm install postcss-import --save-dev`
     * Ex: (on main css file)
     
     `@import "base/global.css";`
@@ -237,7 +235,7 @@
       * Nested CSS:
         `&__<element name>{}`
       * Complete Two Blocks:
-        * -rem - relative to the root of the page (html element) usually 16px
+        * rem - relative to the root of the page (html element) usually 16px
         
         * Add modifier:
           * Ex: class = "btn--large"
