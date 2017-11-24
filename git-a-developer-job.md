@@ -369,17 +369,21 @@
     * need clean directory
       `git status`
     * remove file from staging area:
+      
       `git reset <path to file>`  
       `git branch <name of branch>`
       
       * Star next to branch - current branch we're working in
       
   * Switch branch (Checkout)
+      
       `git checkout count-to-ten`
       
   * Merge changes in one branch to master branch
     * switch back to master
+    
       `git merge <name of branch>`
+      
       * commits from other branch will show after merge and push
       
   * Merge through GitHub
@@ -394,12 +398,15 @@
       `git pull master`
       
      * Delete locally
+     
       `git branch -d <name of branch>`
       
       * Delete remote
+      
        `git push origin --delete <name of branch>` 
       
       * Create and switch to branch in one move: 
+      
         `git checkout -b <name of branch>`
       
       * Merge branch into master
