@@ -112,6 +112,7 @@
     `npm install normalize.css --save`
 
   * If node modules folder deleted: 
+  
     `npm install (redownload packages)`
 
 ## Gulp Essentials
