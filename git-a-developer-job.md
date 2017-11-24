@@ -117,15 +117,11 @@
 
 ## Gulp Essentials
 
-<ul>
-  <li>Gulp Introduction</li>
-    Gulp = automation
-  <li>Installing Gulp</li>
-    <ol>
-      <li>Install globally   npm install gulp-cli --global</li>
-      <li>Install in project  npm install gulp --save-dev</li>
-    </ol>
-</ul>
+ * Gulp Introduction
+  * Gulp = automation
+ * Installing Gulp
+  * Install globally   npm install gulp-cli --global
+  * Install in project  npm install gulp --save-dev
 
 Check version: gulp -v
 
