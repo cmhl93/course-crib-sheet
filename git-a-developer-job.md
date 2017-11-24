@@ -4,21 +4,21 @@
 
 [Git Essentials](#git-essentials)
 
-[Intro to Node.js & NPM](#Intro-To-Node.js-&-NPM)
+[Intro to Node.js & NPM](#intro-to-node.js-&-npm)
 
-[Gulp Essentials](#Gulp-Essentials)
+[Gulp Essentials](#gulp-essentials)
 
-[CSS Architecture](#CSS-Architecture)
+[CSS Architecture](#css-architecture)
 
-[Gulp Timeout](#Gulp-Timeout) 
+[Gulp Timeout](#gulp-timeout) 
 
-[Mobile-First Essentials](#Mobile-First-Essentials)      
+[Mobile-First Essentials](#mobile-first-essentials)      
 
-[Git Branches](#Git-Branches)
+[Git Branches](#git-branches)
 
-[Automated Sprites](#Automated-Sprites)
+[Automated Sprites](#automated-sprites)
 
-[JavaScript Organization](#JavaScript-Organization)
+[JavaScript Organization](#javaScript-organization)
 
 ## Git Essentials
 
