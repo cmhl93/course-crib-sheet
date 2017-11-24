@@ -1,6 +1,7 @@
 # Based on the course "Git a Developer Job" by Brad Schiff
 
 ## Document Contents:
+
 [Git Essentials](#Git-Essentials)
 
 [Intro to Node.js & NPM](#Intro-To-Node.js-&-NPM)
@@ -17,9 +18,9 @@
 
 [Automated Sprites](#Automated-Sprites)
 
-<a href="#javascript"><h2>JavaScript Organization</h2></a>
+[JavaScript Organization](#JavaScript-Organization)
 
-<h3>Git Essentials</h3>
+## Git Essentials
 
 <h4>What is Git?</h4>
   A version control system
@@ -82,7 +83,7 @@
     <br>
     git push origin master
     
-<h3>Intro to Node.js & NPM</h3>
+## Intro to Node.js & NPM
   
   Automation - take a task and find a way to have your computer do it for you
   
@@ -137,7 +138,8 @@ Command Line:
 
 If node modules folder deleted: npm install (redownload packages)
 
-<h3>Gulp Essentials</h3>
+## Gulp Essentials
+
 <ul>
   <li>Gulp Introduction</li>
     Gulp = automation
@@ -205,7 +207,8 @@ In gulpfile.js
     Install: npm install postcss-simple-varss --save-dev
     Install nested CSS: npm install postcss-nested --save-dev
     
-<h3>CSS Architecture</h3>
+## CSS Architecture
+
     File architecture
       npm install postcss-import --save-dev
       
@@ -245,7 +248,8 @@ In gulpfile.js
         Add modifier:
           Ex: class = "btn--large"
       
-<h3>Gulp Timeout</h3>     
+## Gulp Timeout     
+
   Install BrowserSync:
     npm install browser-sync --save-dev
     
@@ -277,7 +281,8 @@ In gulpfile.js
         this.emit('emit');
       });
       
-<h3>Mobile-First Essentials</h3> 
+## Mobile-First Essentials
+
   What does "mobile-first" mean?
     Building responsive web pages starting from mobile devices
       Why?
@@ -343,7 +348,8 @@ In gulpfile.js
             }
       font-weight: 400 -> standard
       
-<h3>Git Branches</h3>
+## Git Branches
+
     git branch -> will list all the branches in the repo
     "master" branch as the...
       primary, main, live, production
@@ -391,7 +397,8 @@ In gulpfile.js
           
           Creates a dedicated commit in your repo's history
           
-<h3>Automated Sprites</h3>
+## Automated Sprites
+
 What is an icon sprite?
   All icons on one sheet
   .svg format
@@ -470,7 +477,8 @@ What is an icon sprite?
         Use variables in rgba:
           npm install postcss-hexrgba --save-dev
           
-<h3 id="#javascript">JavaScript Organization</h3>
+## JavaScript Organization
+
   Intro to Object-Oriented Programming
     -Stop thinking in terms of individual variables and functions
     -Begin thinking in terms of cohesive, self-sufficient objects
@@ -581,21 +589,7 @@ What is an icon sprite?
       
       
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+     
       
       
       
