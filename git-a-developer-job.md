@@ -2,7 +2,7 @@
 
 [Git Essentials](#git-essentials)
 
-[Intro](#intro)
+[Intro to Node and NPM](#intro-to-node-and-npm)
 
 [Gulp Essentials](#gulp-essentials)
 
@@ -81,7 +81,7 @@
     <br>
     git push origin master
     
-## Intro
+## Intro to Node and NPM
   
   Automation - take a task and find a way to have your computer do it for you
   
