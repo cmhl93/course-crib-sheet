@@ -1,10 +1,8 @@
-# Based on the course "Git a Developer Job" by Brad Schiff
-
 ## Document Contents:
 
 [Git Essentials](#git-essentials)
 
-[Intro to Node and NPM](#intro-to-node-and-npm)
+[Intro to node and npm](#intro-to-node-and-npm)
 
 [Gulp Essentials](#gulp-essentials)
 
