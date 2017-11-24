@@ -399,11 +399,11 @@
       
      * Delete locally
      
-      `git branch -d <name of branch>`
+       `git branch -d <name of branch>`
       
       * Delete remote
       
-       `git push origin --delete <name of branch>` 
+        `git push origin --delete <name of branch>` 
       
       * Create and switch to branch in one move: 
       
