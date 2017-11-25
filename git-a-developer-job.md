@@ -418,13 +418,15 @@
           
 ## Automated Sprites
 
-What is an icon sprite?
-  All icons on one sheet
-  .svg format
-  gulp can create sprite sheets
-    npm install gulp-svg-sprite @1.3.1 --save dev
+  * What is an icon sprite?
+    * All icons on one sheet
+    * .svg format
+    * gulp can create sprite sheets
+      * npm install gulp-svg-sprite @1.3.1 --save dev
     
-  on gulpfile.js:
+  * on gulpfile.js:
+  
+    ```
     require('./gulp/tasks/sprites');
     
     Create a new sprites.j (in gulp/tasks folder) and add:
@@ -436,16 +438,19 @@ What is an icon sprite?
           }
         }
       }
-      
+    
     gulp.task('createSprite', function(){
       return gulp.src('./app/assets/images/icons/**/*.svg')
         .pipe(svgSprite(config))
         .pipe(gulp.dest('./app/temp/sprite/'));
     });
+    ```
     
-    gulp createSprite in command line (Creates spritesheet)
+  * To create a spritesheet, type in the command line:
+    `gulp createSprite`
     
-    Use spritesheet to use certain icons in certain location
+  * Use spritesheet to use certain icons in certain location
+      ```
       In sprites.js:
         var config -> mode ->css
         
@@ -454,62 +459,65 @@ What is an icon sprite?
             template: './gulp/templates/sprite.css'
           }
         }
-        
-     Create template folder in gulp folder
-      create a sprite.css
-        Add:
-          {{#shapes}}
-            .icon--{{base}}{
-              width: {{width.outer}}px;
-              height: {{height.outer}}px;
-              background-image: url('/temp/sprite/css{{{sprite}}}');
-              background-position: {{position.relative.xy}};
-            }
-          {{/shapes}}
-          
-     gulp createSprite
-      creates new sprites.css with icons position selected
+       ``` 
+     *  Create template folder in gulp folder
+        * create a sprite.css
+          ```
+          Add:
+            {{#shapes}}
+              .icon--{{base}}{
+                width: {{width.outer}}px;
+                height: {{height.outer}}px;
+                background-image: url('/temp/sprite/css{{{sprite}}}');
+                background-position: {{position.relative.xy}};
+              }
+            {{/shapes}}
+          ```
+     *  gulp createSprite-->creates new sprites.css with icons position selected
       
-    Use spritesheet to use certain icons in certain places:
-      import generated sprite sheet into main css file
-        use gulp to move file to modules folder
+    * Use spritesheet to use certain icons in certain places:
+      * import generated sprite sheet into main css file
+          * use gulp to move file to modules folder
        
-       install package:
-        npm install gulp-rename --save-dev
+      * install package:
+        `npm install gulp-rename --save-dev`
         
-        Add var rename = require('gulp-rename');
+      * Add 
+        `var rename = require('gulp-rename');`
         
-        keep image class, delete everything else
-          Delete old sprites:
-            npm install del --save-dev
+      * keep image class, delete everything else
+          * Delete old sprites:
+            `npm install del --save-dev`
         
-      In sprites.js, add:
+      * In sprites.js, add:
+        ```
         gulp.task('copySpriteCSS', function(){
           return gulp.src('./app/temp/sprite/css/*.css')
             .pipe(rename('_sprite.css'))
             .pipe(gulp.dest('./app/assets/styles/modules'));
         });
+        ```
         
-        gulp copySpriteCSS (command line)
-          generates sprite.css in modules folder
+      * gulp copySpriteCSS (command line)-->generates sprite.css in modules folder
           
-        Use variables in rgba:
-          npm install postcss-hexrgba --save-dev
+      * Use variables in rgba:
+          `npm install postcss-hexrgba --save-dev`
           
 ## JavaScript Organization
 
-  Intro to Object-Oriented Programming
-    -Stop thinking in terms of individual variables and functions
-    -Begin thinking in terms of cohesive, self-sufficient objects
+  * Intro to Object-Oriented Programming
+    * Stop thinking in terms of individual variables and functions
+    * Begin thinking in terms of cohesive, self-sufficient objects
     
-    Object:
-      data and behavior
-      nouns and verbs
+  * Object:
+    * data and behavior
+    * nouns and verbs
       
-    "this" keyword
-      allows function to be recyclable
+  * "this" keyword
+    * allows function to be recyclable
       
-    Ex:
+  * Ex:
+    ```
     function Person(fullName, favColor){
       this.name = fullName;
       this.favoriteColor = favColor;
@@ -517,44 +525,47 @@ What is an icon sprite?
         console.log("Hello, my name is " + this.name + " and my favorite color is " +this.favoriteColor + ".");
       }
     }
-      
+    ```
     
+    ```
     var john = new Person("John Doe", "blue");
     john.greet(); //Hello, my name is John Doe and my favorite color is blue
+    ```
     
+    ```
     var jane = new Person("Jane Smith","green");
     jane.greet(); //Hello, my name is Jane Smith and my favorite color is green
+    ```
     
-    Store that "function" (class) separately using WebPack
+  * Store that "function" (class) separately using WebPack
     
-    The JS Module Pattern and "WebPack"
-      -installing webpack
-        npm install webpack -g  
-      -Create "webpack.config.js" in root folder (beside package.json)
-      -Command line: enter "webpack"
-      -Can Install JQuert:
-        npm install jquery --save
+  * The JS Module Pattern and "WebPack"
+    * Installing webpack
+        `npm install webpack -g`  
+      * Create "webpack.config.js" in root folder (beside package.json)
+      * Command line: enter "webpack"
+      * Can Install JQuery:
+        `npm install jquery --save`
         
-        in js file:
-          var $ = require('jquery');
+      * in js file:
+          `var $ = require('jquery');`
           
-      Install webpack so that it will automatically rebundle when js file is saved
-        -Install webpack locally:
-          npm install webpack --save-dev
+    * Install webpack so that it will automatically rebundle when js file is saved
+      * Install webpack locally:
+         `npm install webpack --save-dev`
           
-    Babel:
-      -Modern JavaScript with browser support
-      -ECMAScript is the standard for JavaScript that web broswers are encouraged to follow
+    * Babel:
+      * Modern JavaScript with browser support
+      * ECMAScript is the standard for JavaScript that web broswers are encouraged to follow
       
-      Write ES6 code -> Babel compiles it into ES5 code
+    * Write ES6 code -> Babel compiles it into ES5 code
       
-      Install and setup Babel
-        npm install babel-core babel-loader babel-preset-es2015 --save-dev
+    * Install and setup Babel
+        `npm install babel-core babel-loader babel-preset-es2015 --save-dev`
         
-      Inheritance
-      
-      <h3>Revealing Elements on Scroll</h3>
-      npm install waypoints --save
+    * Inheritance
+    * Revealing Elements on Scroll
+      `npm install waypoints --save`
       
       
       
