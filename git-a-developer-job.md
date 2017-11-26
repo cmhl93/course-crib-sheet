@@ -141,7 +141,7 @@
   ```
 
   * run default task -> gulp 
-  * run specific task -> gulp <name>
+  * run specific task -> gulp [default]
 
   * gulp plugin:
     * Add gulp-watch:
