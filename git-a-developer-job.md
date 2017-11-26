@@ -247,7 +247,7 @@
     
     ```
     In gulpfile.js:
-    browserSync = require('browser-synce');
+    browserSync = require('browser-sync');
     browserSync.init({
       server: {
         baseDir: "app"
