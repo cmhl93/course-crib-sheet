@@ -2,13 +2,15 @@
 
 [Getting Setup](getting-setup)
 
-[Gulp Basics](gulp-basics)
+[Your First Gulp Task](your-first-gulp-task)
 
-[Gulp Watch and Live Reload](gulp-watch-and-live-reload)
+[Gulp Watch Live Reload](gulp-watch-live-reload)
 
-[CSS and Gulp SASSSCSS too](css-and-gulp-sassscss-too)
+[CSS SCSS and LESS with Gulp](css-scss-and-less-with-gulp)
 
-[JavaScript and Gulp](javascript-and-gulp)
+[JavaScript with Gulp](javascript-with-gulp)
+
+[Other Awesome Plugins](other-awesome-plugins)
 
 ##  Getting Setup
 
@@ -35,10 +37,9 @@
     `npm install gulp -g`
     * add sudo in front of command if it fails (OSX or Linux)
     
-##  Gulp Basics
+## Your First Gulp Task
+## Gulp Watch Live Reload
+## CSS SCSS and LESS with Gulp
+## JavaScript with Gulp
+## Other Awesome Plugins
 
-  * Setting Up NPM
-    * 
-  * The Gulpfile
-  * Your first task
-  * Your First Plugin-Uglify
