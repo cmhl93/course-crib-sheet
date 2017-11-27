@@ -18,11 +18,14 @@
     * Node: 
       * Download from Nodejs.org
       * Check node version:
+      
         `node -v`
+        
     * NPM:
       * Node package modules
       * Ex: Gulp
       * Check npm version:
+      
         `npm -v`
   
   * Using the terminal, it's not that bad!
@@ -34,6 +37,7 @@
     * clear         -->  cleans existing output
     
   * Installing Gulp
+  
     `npm install gulp -g`
     * add sudo in front of command if it fails (OSX or Linux)
     
@@ -41,19 +45,23 @@
   
   * NPM Package.json
     * To create Package.json file, type in the command line:
+    
       `npm init`
   
   * Installing Gulp Locally Gulpfile.js
+  
     `npm install gulp --save`
     
     * Reinstall existing node modules:
+    
       'npm install'
     
     * Create a gulpfile.js file to run tasks
+    
       `touch gulpfile.js`
     
   * Creating Your First Gulp Tasks
-    * 
+    
     
   * Your First Gulp Plugin
   
