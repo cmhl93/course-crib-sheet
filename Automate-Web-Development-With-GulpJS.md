@@ -62,9 +62,66 @@
     
   * Creating Your First Gulp Tasks
     
+    ```
+    var gulp = require('gulp');
+
+    // Styles
+    gulp.task('styles', function(){
+      console.log('starting styles task');
+    });
+
+    // Scripts
+    gulp.task('scripts', function(){
+      console.log('starting scripts task');
+    });
+
+    // Images
+    gulp.task('images', function(){
+      console.log('starting images task');
+    });
+    
+    //  Default (when you type only gulp in the command line)
+    gulp.task('default', function(){
+      console.log('starting default task');
+    });
+
+    ```
     
   * Your First Gulp Plugin
-  
+    * Uglify
+      * Concatenates and optimizes multiple js files.
+      * `npm install --save-dev gulp-uglify`
+      * In gulpfile.js
+        ```
+        var gulp = require('gulp'),
+        uglify = require('gulp-uglify');
+
+        // Styles
+        gulp.task('styles', function(){
+          console.log('starting styles task');
+        });
+
+        // Scripts
+        gulp.task('scripts', function(){
+          console.log('starting scripts task');
+
+          return gulp.src('public/scripts/*.js')
+            .pipe(uglify())
+            .pipe(gulp.dest('public/dist'));
+        });
+
+        // Images
+        gulp.task('images', function(){
+          console.log('starting images task');
+        });
+
+        //	Default
+        gulp.task('default', function(){
+          console.log('starting default task');
+        });
+
+        ```
+        
 ## Gulp Watch Live Reload
 
 
