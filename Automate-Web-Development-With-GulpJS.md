@@ -14,7 +14,7 @@
 
 ##  Getting Setup
   
-  * Installing Node and NPM
+  ### Installing Node and NPM
     * Node: 
       * Download from Nodejs.org
       * Check node version:
@@ -28,7 +28,7 @@
       
         `npm -v`
   
-  * Using the terminal, it's not that bad!
+  ### Using the terminal, it's not that bad!
     * Echo "Text" -->  outputs "Text"
     * cd          -->  change directory
     * ls          -->  list contents of the current folder you're in
@@ -36,19 +36,19 @@
     * cd ..       -->  go back a directory
     * clear         -->  cleans existing output
     
-  * Installing Gulp
+  ### Installing Gulp
   
     `npm install gulp -g`
     * add sudo in front of command if it fails (OSX or Linux)
     
 ## Your First Gulp Task
   
-  * NPM Package.json
+  ### NPM Package.json
     * To create Package.json file, type in the command line:
     
       `npm init`
   
-  * Installing Gulp Locally Gulpfile.js
+  ### Installing Gulp Locally Gulpfile.js
   
     `npm install gulp --save`
     
@@ -60,7 +60,7 @@
     
       `touch gulpfile.js`
     
-  * Creating Your First Gulp Tasks
+  ### Creating Your First Gulp Tasks
     
     ```
     var gulp = require('gulp');
@@ -87,7 +87,7 @@
 
     ```
     
-  * Your First Gulp Plugin
+  ### Your First Gulp Plugin
     * Uglify
       * Concatenates and optimizes multiple js files.
       * `npm install --save-dev gulp-uglify`
@@ -124,7 +124,10 @@
         
 ## Gulp Watch Live Reload
 
-
+  ### Setting Up A Server
+  ### Gulp Watch
+  ### Live Reload
+  
 ## CSS SCSS and LESS with Gulp
 
 
