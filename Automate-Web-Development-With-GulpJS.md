@@ -54,7 +54,7 @@
     
     * Reinstall existing node modules:
     
-      'npm install'
+      `npm install`
     
     * Create a gulpfile.js file to run tasks
     
