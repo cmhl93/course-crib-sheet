@@ -63,11 +63,11 @@
    
 ##  Div and Spans
 
-    ```
+  ```
     <div> - generic container at block level
     <span> - generic in-line container
-    ```
-    
+  ```
+
 ##  HTML attributes
 
   * Attributes = Adding Additional Information to tags
