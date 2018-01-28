@@ -64,8 +64,8 @@
 ##  Div and Spans
 
     ```
-     <div> - generic container at block level
-     <span> - generic in-line container
+    <div> - generic container at block level
+    <span> - generic in-line container
     ```
   
 ##  HTML attributes
