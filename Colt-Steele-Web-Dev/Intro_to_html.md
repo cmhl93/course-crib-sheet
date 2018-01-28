@@ -38,11 +38,12 @@
 ##  Basic Tags
 
   * MDN element reference
-  * <h1> - header 1
-  * <p> - paragraph
-  * <strong> - bold text
-  * <em> - italicize, emphasis
-  
+    ``` 
+    <h1> - header 1
+    <p> - paragraph
+    <strong> - bold text
+    <em> - italicize, emphasis
+    ```
 ##  HTML lists
 
   * Ordered list
