@@ -63,22 +63,24 @@
    
 ##  Div and Spans
 
-  ```
-   <div> - generic container at block level
-   <span> - generic in-line container
-  ```
+    ```
+     <div> - generic container at block level
+     <span> - generic in-line container
+    ```
   
 ##  HTML attributes
 
-  * Adding Additional Information to tags
+  * Attributes = Adding Additional Information to tags
     ```
     <tag name = "value"></tag>
     ```
   * MDN Attribute Reference
+  
   * Images
     ```
     <img src = "image.png">
     ```
+    
   * Links
     ```
     <a href = "url">Link Text></a>
