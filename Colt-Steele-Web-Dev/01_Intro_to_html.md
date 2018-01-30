@@ -1,3 +1,19 @@
+#  Document Contents
+
+[HTML Basics](#html-basics)
+
+[Intro to MDN](#intro-to-mdn)
+
+[HTML Boilerplate and Comments](#html-boilerplate-and-comments)
+
+[Basic Tags](#basic-tags)
+
+[HTML Lists](#html-lists)
+
+[Div and Spans](#div-and-spans)
+
+[HTML Attributes](#html-attributes)
+
 ##  HTML Basics
 
   * Allowed publishing and exchanging of scientific and technical documents
