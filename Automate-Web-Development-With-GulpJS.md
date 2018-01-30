@@ -1,16 +1,16 @@
 ## Document Contents
 
-[Getting Setup](getting-setup)
+[Getting Setup](#getting-setup)
 
-[Your First Gulp Task](your-first-gulp-task)
+[Your First Gulp Task](#your-first-gulp-task)
 
-[Gulp Watch Live Reload](gulp-watch-live-reload)
+[Gulp Watch Live Reload](#gulp-watch-live-reload)
 
-[CSS SCSS and LESS with Gulp](css-scss-and-less-with-gulp)
+[CSS SCSS and LESS with Gulp](#css-scss-and-less-with-gulp)
 
-[JavaScript with Gulp](javascript-with-gulp)
+[JavaScript with Gulp](#javascript-with-gulp)
 
-[Other Awesome Plugins](other-awesome-plugins)
+[Other Awesome Plugins](#other-awesome-plugins)
 
 ##  Getting Setup
   
