@@ -146,4 +146,18 @@
     
 ##  Setting up an ES6 Development Environment
 
-##  
+##  Understanding ES6 Essentials Part 1
+
+##  Understanding ES6 Essentials Part 2
+
+##  Classes and Prototypes
+
+##  Data Structures in ES6
+
+##  Closures in ES6
+
+##  ES6 Generators
+
+##  Asynchronous Programming, Promises and APIs
+
+##  ES7 and ES8 Proposals
