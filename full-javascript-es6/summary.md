@@ -17,7 +17,7 @@
 
 [ES6 Generators](#es6-generators)
 
-[Asynchronous Programming, Promises, and APIs](#asynchronous-programming,-promises,-and-apis)
+[Asynchronous Programming, Promises, and APIs](#asynchronous-programming-promises-and-apis)
 
 [ES7 and ES8 Proposals](#es7-and-es8-proposals)
 
