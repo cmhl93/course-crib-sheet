@@ -164,6 +164,21 @@
     
 ##  Setting up an ES6 Development Environment
 
+  * Presenting ES6, Babel, and Webpack
+    * Babel and Webpack help create an ES6 development environment (Not all browsers support ES6)
+  * Why we need Babel and Transpilers
+    * What is a transpiler?
+      * A transpiler reads code written in one language and produces the equivalent code in another
+    * Why do we need transpilers?
+      * Browsers only currently have widespread support of older JS
+      * Transpilers convert advanced TypeScript and CoffeScript code back into the original JS
+    * Babel
+      * Transpiles es6 back into the supported pre-es6 JS
+  * How does Babel work?
+    `https://babeljs.io/`
+  * Benefits of Webpack  
+      
+ 
 ##  Understanding ES6 Essentials Part 1
 
 ##  Understanding ES6 Essentials Part 2
