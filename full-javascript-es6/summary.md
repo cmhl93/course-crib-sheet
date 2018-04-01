@@ -177,7 +177,12 @@
   * How does Babel work?
     `https://babeljs.io/`
   * Benefits of Webpack  
+   * It bundles modules into one .js file
+   * Comes with a dev-server
   * Setting Up with Webpack
+   * Create project:
+    `npm init -y`
+    `npm install --save-dev webpack`
   * Adding Babel to Webpack
   
       
