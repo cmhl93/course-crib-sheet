@@ -177,6 +177,9 @@
   * How does Babel work?
     `https://babeljs.io/`
   * Benefits of Webpack  
+  * Setting Up with Webpack
+  * Adding Babel to Webpack
+  
       
  
 ##  Understanding ES6 Essentials Part 1
