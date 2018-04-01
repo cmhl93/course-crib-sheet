@@ -177,20 +177,20 @@
   * How does Babel work?
     `https://babeljs.io/`
   * Benefits of Webpack  
-   * It bundles modules into one .js file
-   * Comes with a dev-server
+    * It bundles modules into one .js file
+    * Comes with a dev-server
   * Setting Up with Webpack
-   * Create project:
-    `npm init -y`
-    `npm install --save-dev webpack`
+    * Create project:
+      `npm init -y`
+      `npm install --save-dev webpack`
     * Create a new "build" folder
-     * add `index.html`
-     * add script to body tag named `bundle.js`
+      * add `index.html`
+      * add script to body tag named `bundle.js`
     * Create an "app" folder next to the "build" folder  
-     * Create an `index.js` file
-      * write javascript code
+      * Create an `index.js` file
+       * write javascript code
     * To get webpack to work, create a `webpack.config.js` file
-     * add to the file:
+       * add to the file:
       ```
       module.exports = {
        entry: ['./app/index.js'],
