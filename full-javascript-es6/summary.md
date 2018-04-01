@@ -183,6 +183,32 @@
    * Create project:
     `npm init -y`
     `npm install --save-dev webpack`
+    * Create a new "build" folder
+     * add `index.html`
+     * add script to body tag named `bundle.js`
+    * Create an "app" folder next to the "build" folder  
+     * Create an `index.js` file
+      * write javascript code
+    * To get webpack to work, create a `webpack.config.js` file
+     * add to the file:
+      ```
+      module.exports = {
+       entry: ['./app/index.js'],
+       output: {
+        path: './build',
+        filename: 'bundle.js'
+       }
+      }
+      ```
+    * In package.json file, change scripts code to:
+      ```
+      "scripts":{
+       "build": "webpack"
+      }
+      ```
+    * To test webpack, type npm build run into the console.  Should return "webpack"
+    * Webpack updates when changing code? No, you need Babel as well.
+     
   * Adding Babel to Webpack
   
       
