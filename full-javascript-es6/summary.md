@@ -210,7 +210,7 @@
     * Webpack updates when changing code? No, you need Babel as well.
      
   * Adding Babel to Webpack
-  
+    `npm install babel-core babel-loader webpack-dev-server babel-preset-es2015 babel-polyfill --save-dev`
       
  
 ##  Understanding ES6 Essentials Part 1
