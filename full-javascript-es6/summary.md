@@ -211,7 +211,7 @@
      
   * Adding Babel to Webpack
     `npm install babel-core babel-loader webpack-dev-server babel-preset-es2015 babel-polyfill --save-dev`
-     * Update `webpack.config.js`
+     * Update `webpack.config.js` add this code after entry:
       ```
       module: {
       loaders: [
@@ -235,10 +235,12 @@
         "start": "webpack-dev-server"
       },
       "babel": {
-        "presets": ["es2015]
+        "presets": ["es2015"]
       },
       ```
- 
+    * run `npm start` to get a server  
+    * change browser to localhost: 3000 to check the automatic update
+    
 ##  Understanding ES6 Essentials Part 1
 
 ##  Understanding ES6 Essentials Part 2
