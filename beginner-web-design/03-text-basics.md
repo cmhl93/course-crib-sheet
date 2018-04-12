@@ -12,11 +12,11 @@
     
 ##	Lists
   *	Unordered list		
-    * <ul>
+    * `<ul>`
   *	Ordered list		
-    * <ol>
+    * `<ol>`
   *	Description list		
-    * <dl>
+    * `<dl>`
 
 ##	Bold and italic
   *	Bold = `<strong>Example text</strong>`
@@ -28,22 +28,22 @@
   
 ##	Special characteristics
   *	Right single quote
-    *	&rsquo;
+    *	`&rsquo;`
   *	Left single quote
-    *	&lsquo;
+    *	`&lsquo;`
   *	Right double quote
-    *	&rdquo;
+    *	`&rdquo;`
   *	Left double quote
-    *	&ldquo;
+    *	`&ldquo;`
   *	Ampersand
-    *	&amp;
+    *	`&amp;`
   *	Greater than
-    *	&gt;
+    *	`&gt;`
   *	Less than
-    *	&lt;
+    *	`&lt;`
   *	Copyright
-    *	&copy;
+    *	`&copy;`
   *	Registered symbol
-    *	&reg;
+    *	`&reg;`
   *	Trademark symbol
-    *	&trade;
+    *	`&trade;`
