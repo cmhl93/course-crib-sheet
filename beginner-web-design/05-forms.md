@@ -3,12 +3,12 @@
 ##  Forms
   ```
   <form>
-  <label>First Name: 
-  <input type = “text” name = “firstName”>
-  </label>
-  <label for = “lastName”>Last Name: </label>
-  <input id = “lastName” type = “text” name = “lastName”>
-  <input type = “submit” value = “Submit”>
+    <label>First Name: 
+      <input type = “text” name = “firstName”>
+    </label>
+    <label for = “lastName”>Last Name: </label>
+      <input id = “lastName” type = “text” name = “lastName”>
+    <input type = “submit” value = “Submit”>
   </form>
   ```
 ##  Different types of inputs
@@ -26,7 +26,7 @@
   ```
   <form>
     <label for = “telephone”>Telephone:</label>
-    <input id = “telephone” type = “tel” name = “telephone”>
+      <input id = “telephone” type = “tel” name = “telephone”>
     <input type = “submit” value = “Save!”>
   </form>
   ```
@@ -35,7 +35,7 @@
   ```
   <form>
     <label for = “yourMessage”>Your Message</label>
-    <textarea id = “yourMessage” name = “yourMessage”></textarea>
+      <textarea id = “yourMessage” name = “yourMessage”></textarea>
     <input type = “submit” value = “Save!”>
   </form>
   ```
