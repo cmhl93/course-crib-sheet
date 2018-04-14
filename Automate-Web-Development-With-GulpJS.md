@@ -14,83 +14,80 @@
 
 ##  Getting Setup
   
-  ### Installing Node and NPM
+### Installing Node and NPM
   
-    * Node: 
-      * Download from Nodejs.org
-      * Check node version:
-      
-        `node -v`
+  * Node: 
+    * Download from Nodejs.org
+    * Check node version:    
+      `node -v`
         
-    * NPM:
-      * Node package modules
-      * Ex: Gulp
-      * Check npm version:
-      
-        `npm -v`
+  * NPM:
+    * Node package modules
+    * Ex: Gulp
+    * Check npm version:    
+      `npm -v`
   
-  ### Using the terminal, it's not that bad!
+### Using the terminal, it's not that bad!
   
-    * Echo "Text" -->  outputs "Text"
-    * cd          -->  change directory
-    * ls          -->  list contents of the current folder you're in
-    * pwd         -->  print working directory
-    * cd ..       -->  go back a directory
-    * clear         -->  cleans existing output
+  * Echo "Text" -->  outputs "Text"
+  * cd          -->  change directory
+  * ls          -->  list contents of the current folder you're in
+  * pwd         -->  print working directory
+  * cd ..       -->  go back a directory
+  * clear         -->  cleans existing output
     
-  ### Installing Gulp
+### Installing Gulp
   
-    `npm install gulp -g`
-    * add sudo in front of command if it fails (OSX or Linux)
+  `npm install gulp -g`
+  * add sudo in front of command if it fails (OSX or Linux)
     
 ## Your First Gulp Task
   
-  ### NPM Package.json
+### NPM Package.json
   
-    * To create Package.json file, type in the command line:
-    
-      `npm init`
+  * To create Package.json file, type in the command line:
+    `npm init`
   
-  ### Installing Gulp Locally Gulpfile.js
+### Installing Gulp Locally Gulpfile.js
   
-    `npm install gulp --save`
+  `npm install gulp --save`
     
-    * Reinstall existing node modules:
+  * Reinstall existing node modules:
     
-      `npm install`
+    `npm install`
     
-    * Create a gulpfile.js file to run tasks
+  * Create a gulpfile.js file to run tasks
     
-      `touch gulpfile.js`
+    `touch gulpfile.js`
     
-  ### Creating Your First Gulp Tasks
+### Creating Your First Gulp Tasks
     
-    ```
-    var gulp = require('gulp');
+  ```
+  var gulp = require('gulp');
 
-    // Styles
-    gulp.task('styles', function(){
-      console.log('starting styles task');
-    });
+  // Styles
+  gulp.task('styles', function(){
+    console.log('starting styles task');
+  });
 
-    // Scripts
-    gulp.task('scripts', function(){
-      console.log('starting scripts task');
-    });
+  // Scripts
+  gulp.task('scripts', function(){
+    console.log('starting scripts task');
+  });
 
-    // Images
-    gulp.task('images', function(){
-      console.log('starting images task');
-    });
+  // Images
+  gulp.task('images', function(){
+    console.log('starting images task');
+  });
     
-    //  Default (when you type only gulp in the command line)
-    gulp.task('default', function(){
-      console.log('starting default task');
-    });
+  //  Default (when you type only gulp in the command line)
+  gulp.task('default', function(){
+    console.log('starting default task');
+  });
 
-    ```
+  ```
     
-  ### Your First Gulp Plugin
+### Your First Gulp Plugin
   
     * Uglify
       * Concatenates and optimizes multiple js files.
@@ -128,7 +125,7 @@
         
 ## Gulp Watch Live Reload
 
-  ### Setting Up A Server
+### Setting Up A Server
   
     * `npm install static-server@2.0.0 --save`
     * create a server.js file in the root of the project
@@ -147,7 +144,7 @@
       ```
     * You can now view the project on localhost:3000
     
-  ### Gulp Watch
+### Gulp Watch
   
     * Watches files and runs gulp tasks in the background to update the files when browser reloads
     * `npm install gulp-watch --save-dev`
@@ -193,9 +190,9 @@
 
       ```
         
-  ### Live Reload
+### Live Reload
     
-    * `npm install gulp-livereload@3.8.1 --save-dev`
+  * `npm install gulp-livereload@3.8.1 --save-dev`
     * 
   
   
